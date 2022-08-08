@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Company's Sales Report Dashboard- II</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/header_stick.css">
+
+    </head>
+    <body>
+        <header class="header" id="myHeader">
+            <a href="index.html">
+                <div class="logo">
+                    <img src="img/musicophile.jpg" alt="">
+                </div>
+            </a>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Interests</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div class="content">
+            <section class="intro">
+                <h1 class="section__title section__title--intro">
+                Company's Sale Report <strong>Dashboard- II</strong>
+                </h1>
+                <p class="section__subtitle section__subtitle--intro">Using Google Data Studio</p>
+                <img src="img/company's sales.jpg" alt="" class="intro__img">
+            </section>
+            
+            <div class="portfolio-item-individual" style="text-align:justify;">
+                <p>This dashboard is made using Google Data Studio and is a practical visualization of a Company's Sales Report.
+                It gives an overview of total sales, orders and customers. Also it gives a detailed report of sales and orders by time period, customer location and sales person.<br>
+                Here is the link to the
+                <a href="https://datastudio.google.com/reporting/926ccc2e-aa3e-456e-8638-0285ddd27ddf">project</a> and
+                <a href="https://docs.google.com/spreadsheets/d/1YWZmL8KrfnQMYRJTi_TgizePSigMBOzvWIBizJZzvBo/edit?usp=sharing">
+                    dataset</a> used.
+                </p>
+                <img src="img/dashboard-021.jpg" alt="">
+                <img src="img/dashboard-022.jpg" alt="">
+                <p>The following is what has been done :-
+                <ul>
+                    <li> Connecting financial data through Google Sheets. </li>
+                    <li> User friendly buttons to move around the report.</li>
+                    <li> Date range selection button on the top of the report header.</li>
+                    <li> Creating an overview of the Sales report.</li>
+                    <li> Creating Time Series charts of Sales orders and customers.</li>
+                </ul>
+                -There are user friendly buttons to move around the report, in addition with the Date range selection button on the top of the report header.
+                    which help the user to choose any time period to see the data visualization. They can see the data of previous periods in comparison with the current period.<br>
+                -There is also a separate page of an overview of the following:
+                    <ul>
+                        Total Sales<br> 
+                        Total Customers<br> 
+                        Total orders<br>
+                        Sales value according to each sales individual<br>
+                        Orders count of each sales Individual<br>
+                        Time Series Chart to show the data of Yearly sales<br>
+                    </ul>
+                -In the 2nd page we have the following:
+                    <ul>
+                        Time series charts of Monthly Sales value in comparison of previous year data<br>
+                        Time series charts of Monthly Orders value in comparison of previous year data<br>
+                        Time series charts of Monthly Customers engaged in comparison of previous year data<br>
+                        Tables of yearly Sales and orders with the help of Target achievements<br>
+                        Table of Sales executive orders & Sales with the help of their Target achievements<br>
+                        Pie charts in terms of Period and Location vise sales<br>
+                        Bar Charts to see the Total sales by each Sales Person and orders
+                    </ul>
+                </p>
+            </div>
+            
+            
+            <!-- Footer -->
+            <footer class="footer">
+                <!-- replace with your own email address -->
+                <a href="mailto:guptakritarth28122001@gmail.com" class="footer__link">guptakritarth28122001@gmail.com</a>
+                <ul class="social-list">
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://www.linkedin.com/in/kritarth-gupta">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://twitter.com/kritarth_gupta">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://instagram.com/kritarthgupta">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="http://www.facebook.com/kritarth.gupta">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                </ul>
+            </footer>
+        </div>
+        
+        <!-- FOR HEADING STICK -->
+        <script src="js/header_stick.js"></script>
+        <!-- FOR HEADING STICK -->
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>

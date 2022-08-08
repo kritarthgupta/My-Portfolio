@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kritarh_Gupta's Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="clock2.css">
+        <link rel="stylesheet" href="css/header_stick.css">
+
+    </head>
+    <body>
+        <header class="header" id="myHeader">
+            <div class="logo">
+                <!-- <img src="img/musicophile.jpg" alt=""> -->
+            </div>
+            <!-- <p id="data" class="styleIt"></p> -->
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Interests</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div class="content"> 
+            <!-- Introduction -->
+            <section class="intro" id="home">
+                <h1 class="section__title section__title--intro">
+                    Hi, I am <strong>Kritarth Gupta</strong>
+                </h1>
+                <p class="section__subtitle section__subtitle--intro">My life is all Music & Coding</p>
+                <img title='<musicophile>' src="img/kritarth-gupta-01.jpg" alt="a picture of Kritarth Gupta smiling" class="intro__img">
+            </section>
+            
+            
+            <!-- My services -->
+            <section class="my-services" id="services">
+                <h2 class="section__title section__title--services">What I love</h2>
+                <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+                <script src="clock2.js"></script>
+                <div class="services">
+                    <div class="service">
+                        <h3>Coding &#128187</h3>
+                        <p style="text-align:justify;">This has been my passion since I got to know that a few lines of code can make even a machine talk, create apps and software, build websites, video games and much more
+                        </p>
+                        <!-- <p><img class=" ls-is-cached lazyloaded" src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/man-technologist_1f468-200d-1f4bb.png" data-src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/man-technologist_1f468-200d-1f4bb.png" data-srcset="https://emojipedia-us.s3.amazonaws.com/source/skype/289/man-technologist_1f468-200d-1f4bb.png 2x" alt="Man Technologist on Skype " width="60" height="60" srcset="https://emojipedia-us.s3.amazonaws.com/source/skype/289/man-technologist_1f468-200d-1f4bb.png 2x"></p> -->
+                    </div> <!-- / service -->
+                    <div class="service">
+                        <h3>Music &#127911</i></h3>
+                        <p style="text-align:justify;">Addicted to listening songs for hours non-stop even at late nights. My dearest are 2010's hindi/punjabi & apart from this, I love lo-fi music to relax my mind after doing a heck of coding.     
+                        </p>
+                    </div> <!-- / service -->
+                    <div class="service">
+                        <h3>Cricket &#127951</h3>
+                        <p style="text-align:justify;">Cricket has been in my blood since childhood. Watching my favourite Sachin & Dhoni on crease. I just miss those days till date.
+                        </p>
+                    </div> <!-- / service -->                
+                </div> <!-- / services -->
+                
+                <a data-text="My Work" href="#work" class="btn" style="color: #fff; font-size: 25px;">My Work</a>
+                
+            </section>
+            
+            
+            <!-- About me -->
+            <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">Data Science-ML enthusiast|Front-end developer</p>
+            
+            <div class="about-me__body" style="text-align:justify;">
+                    <p><b><i>“If you torture the data long enough, it will confess to anything"<br>
+                        ~ Ronald H. Coase</i></b><p>
+                    <p> Fond of dealing with data and story telling by identifying patterns/trends in it and deriving factual insights from it in the form of beautiful dashboards and various visualisation tools.
+                    </p>
+                    <p>Inspired by the fact that machines too can learn and adapt through experience,<br>
+                    I am fond of building ML models which can analyze bigger and complex data, recognize patterns in it and deliver faster, more accurate results.
+                    </p>
+                    <p>Apart from this I love to style and design websites and web applications with great flexibility and scalability in order to provide seamless and engaging user experience.
+                    </p>
+                </div>
+            
+            <img src="img/kritarth-gupta-02.jpg" alt="kritarth leaning against a table" class="about-me__img">
+            </section>
+            
+            <!-- My Work -->
+            <section class="my-work" id="work">
+                <h2 class="section__title section__title--work">My work</h2>
+                <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+                
+                <div class="portfolio">
+                    <!-- Portfolio item 01 -->
+                    <a href="portfolio-item-01.html" class="portfolio__item">
+                        <img src="img/profit_loss.jpg" alt="" class="portfolio__img">
+                    </a>
+                    
+                    <!-- Portfolio item 02 -->
+                    <a href="portfolio-item-02.html" class="portfolio__item">
+                        <img src="img/company's sales.jpg" alt="" class="portfolio__img">
+                    </a>
+                    
+                    <!-- Portfolio item 03 -->
+                    <a href="portfolio-item-03.html" class="portfolio__item">
+                        <img src="img/Stock.jpg" alt="" class="portfolio__img">
+                    </a>
+                    
+                    <!-- Portfolio item 04 -->
+                    <a href="portfolio-item-04.html" class="portfolio__item">
+                        <img src="img/topsis.jpg" alt="" class="portfolio__img">
+                    </a>                
+                </div>
+            </section>
+            
+            
+            <!-- Footer -->
+            <footer class="footer">
+                <!-- replace with your own email address -->
+                <a href="mailto:guptakritarth28122001@gmail.com" class="footer__link">guptakritarth28122001@gmail.com</a>
+                <ul class="social-list">
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://www.linkedin.com/in/kritarth-gupta">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://twitter.com/kritarth_gupta">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://instagram.com/kritarthgupta">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="http://www.facebook.com/kritarth.gupta">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://open.spotify.com/user/31tyay3kxxqvfwjdfjt7ozujed3q?si=f66eed9c711e47b6">
+                            <i class="fab fa-spotify"></i>
+                        </a>
+                    </li>
+                </ul>
+                 <p id="data" class="styleIt"></p>
+            </footer>
+        </div>
+        
+        
+
+        
+        <!-- FOR HEADING STICK -->
+        <script src="js/header_stick.js"></script>
+        <!-- FOR HEADING STICK -->
+        <script src="js/index.js"></script>
+        
+
+        <!-- Cloudflare Web Analytics -->
+        <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8488266e97a64e50b5a085d1a262d3a4"}'>
+        </script><!-- End Cloudflare Web Analytics -->
+    </body>
+</html>

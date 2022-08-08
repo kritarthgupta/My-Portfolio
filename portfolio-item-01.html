@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Profit and Loss Report Dashboard- I</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/header_stick.css">
+    </head>
+    <body>
+        <header class="header" id="myHeader">
+            <a href="index.html">
+                <div class="logo">
+                    <img src="img/musicophile.jpg" alt="">
+                </div>
+            </a>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Interests</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div class="content">
+            <section class="intro">
+                <h1 class="section__title section__title--intro">
+                    Profit and Loss Report <strong>Dashboard- I</strong>
+                </h1>
+                <p class="section__subtitle section__subtitle--intro">Using Google Data Studio</p>
+                <img src="img/profit_loss.jpg" alt="" class="intro__img">
+            </section>
+            
+            <div class="portfolio-item-individual" style="text-align:justify;">
+                <p>This dashboard is made using Google Data Studio and is a practical visualization of a financial dashboard.
+                It shows weekly, monthly and annual web responsive financial reports that are dynamical and meaningful.<br>
+                Here is the link to the
+                <a href="https://datastudio.google.com/reporting/5da9ddf4-a22e-4659-a87d-7e46f8f0c383">project</a> and
+                <a href="https://docs.google.com/spreadsheets/d/1J5MdDLhwJCDxa6SS4mmuMdzKGuR02RR4hdSfGbCSGo4/edit?usp=sharing">
+                    dataset</a> used.
+                </p>
+                <img src="img/dashboard-01.jpg" alt="">
+                <p>The following is what has been done :-
+                <ul>
+                    <li> Connecting financial data through Google Sheets. </li>
+                    <li> Inserting Time series charts for Revenue, Expenses, Net profit and net profit Margins. </li>
+                    <li> Selection of Time series & Report time & Date selection. </li>
+                    <li> We can also update financial data in the dashboards. </li>
+                    <li> There are Scorecards to show the comparison of previous data Pie charts, Bar Charts & Area charts.<br>
+                </ul>
+                So basically, in this we have created a monthly revenue time series chart in google data studio to visualize the impact of our financial report. <br>
+                
+                -First of all we have a report header to make the financial report elegant.
+                -We can easily do the formatting of the header created as per the requirements in dashboard.<br>
+                -There is a time series chart inserted which can be controlled as per the individual's requirements.<br>
+                -One can also observe the date formatting if the time series chart shows the value in daily basis. This has been done by editing the data source. The selection of correct format and data in preparation from google data studio will help us to show us accurate results.<br>
+                -The idea is that we have 2 time fields, the 1st field is in Date format so data studio can understand the Time series and the 2nd date field is in month format to make the time series chart well designed and understandable for google data studio and as well for us.<br>
+                -We can also convert our line charts to bar chart and move our time series line breaks chart to leave zero corner.
+                </p>
+            </div>
+            
+            <!-- Footer -->
+            <footer class="footer">
+                <!-- replace with your own email address -->
+                <a href="mailto:guptakritarth28122001@gmail.com" class="footer__link">guptakritarth28122001@gmail.com</a>
+                <ul class="social-list">
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://www.linkedin.com/in/kritarth-gupta">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://twitter.com/kritarth_gupta">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://instagram.com/kritarthgupta">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="http://www.facebook.com/kritarth.gupta">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                </ul>
+            </footer>
+        </div>
+        
+        <!-- FOR HEADING STICK -->
+        <script src="js/header_stick.js"></script>
+        <!-- FOR HEADING STICK -->
+        <script src="js/index.js"></script>       
+    </body>
+</html>

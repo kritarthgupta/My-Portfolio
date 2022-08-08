@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TOPSIS package</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/header_stick.css">
+
+    </head>
+    <body>
+        <header class="header" id="myHeader">
+            <a href="index.html">
+                <div class="logo">
+                    <img src="img/musicophile.jpg" alt="">
+                </div>
+            </a>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Interests</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div class="content"> 
+            <section class="intro">
+                <h1 class="section__title section__title--intro">
+                    Topsis package(MCDM)<strong>Python3</strong>
+                </h1>
+                <p class="section__subtitle section__subtitle--intro">Multi-criteria decision analysis</p>
+                <img src="img/topsis.jpg" alt="" class="intro__img">
+            </section>
+            
+            <div class="portfolio-item-individual" style="text-align:justify;">
+                <p>Technique for Order Preference by Similarity to Ideal Solution (TOPSIS) came in the 1980s as a MCDM method. <br>
+                TOPSIS is a multi-criteria decision analysis method. It compares a set of alternatives based on a pre-specified criterion. 
+                The method is used in the business across various industries, every time we need to make an analytical decision based on collected data.
+                The mysterious logic of TOPSIS is based on the concept that the chosen alternative should have the shortest geometric distance from the best solution and the longest geometric distance from the worst solution. <br>
+                My Topsis project is published online on the Python Package Index (PyPI) which is a repository of software for the Python.<br>
+                And can be accessed via this <a href="https://pypi.org/project/Topsis-Kritarth-101903321/">link.</a>   <br>
+                For package insallation, write <i style='color:rgb(225, 89, 89)'>'pip install Topsis-Kritarth-101903321' </i> in the Command Line Interface.
+                </p>
+                <img src="img/topsis-01.jpg" alt="Topsis-Kritarth-101903321 0.0.1">
+                <p>
+                    So basically, with the help of this package you can test and select the best model out of various alternatives present. <br>
+                    This package performs an algorithm having a series of steps:
+                    <ol>
+                        <li>Create a matrix consisting of M alternatives and N criteria. This matrix is usually called an “evaluation matrix”.</li>
+                        <li>Normalize evaluation matrix.</li>
+                        <li>Calculate the weighted normalized decision matrix. It is important to note that each criterion should have its own weight so that all of them will sum up to 1. The weights can be derived randomly (not recommended) or based on expert knowledge (industry standard).</li>
+                        <li>Determine the best and the worst alternative for each criterion.</li>
+                        <li>Calculate the Euclidean distance between the target alternative and the best/worst alternative.</li>
+                        <li>For each alternative calculate the similarity to the worst alternative. The results are our TOPSIS scores.</li>
+                        <li>Rank alternatives according to the TOPSIS score by descending order.</li>
+                    </ol>
+                    <b>And… that’s all. We obtained a ranked set of alternatives based on specified criteria!</b>          
+                </p>
+            </div>
+            
+            
+            <!-- Footer -->
+            <footer class="footer">
+                <!-- replace with your own email address -->
+                <a href="mailto:guptakritarth28122001@gmail.com" class="footer__link">guptakritarth28122001@gmail.com</a>
+                <ul class="social-list">
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://www.linkedin.com/in/kritarth-gupta">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://twitter.com/kritarth_gupta">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://instagram.com/kritarthgupta">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="http://www.facebook.com/kritarth.gupta">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                </ul>
+            </footer>
+        </div>
+        
+        <!-- FOR HEADING STICK -->
+        <script src="js/header_stick.js"></script>
+        <!-- FOR HEADING STICK -->
+        <script src="js/index.js"></script> 
+    </body>
+</html>

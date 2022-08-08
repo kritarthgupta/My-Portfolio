@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio Overview dashboard</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/header_stick.css">
+
+    </head>
+    <body>
+        <header class="header" id="myHeader">
+            <a href="index.html">
+                <div class="logo">
+                    <img src="img/musicophile.jpg" alt="">
+                </div>
+            </a>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Interests</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div class="content"> 
+            <section class="intro">
+                <h1 class="section__title section__title--intro">
+                US Portfolio Overview<strong>Dashboard- III</strong>
+                </h1>
+                <p class="section__subtitle section__subtitle--intro">Using Plotly, Dash and bootstrap</p>
+                <img src="img/Stock.jpg" alt="" class="intro__img">
+            </section>
+            
+            <div class="portfolio-item-individual" style="text-align:justify;">
+                <p> With the help of below dashboard, one can keep track of the stocks portfolio. The best thing about it is that one can do the changes as per his/her requirement.<br>
+                    Here is the link to the
+                <a href="https://drive.google.com/drive/folders/1Fc43QRctx1ZKF-kDBSRWjnPBytGJktRu?usp=sharing">
+                    Google drive</a> folder which includes the code in python notebook(.ipynb) file and the necessary explanations of all visual charts and plots in this project.
+                </p>
+                <img src="img/dashboard-03.jpg" alt="">
+                <p> This dashboard is made in pure Python language. It mainly uses Plotly and Dash packages for practical visualization of a US stock market's Portfolio and some Bootstrap is also used to give it some style.
+                It gives an overview of necessary insights like total portfolio value($USD), Monthly Returns(%), Portfolio and US market's comparison and Top holdings.<br>
+                On the left hand side we see 2 graphs. The first one tells us about the trends in total Portfolio value till date and the Second graph tells us the %age change in the returns on monthly basis.<br>
+                On the right hand side, firstly we have Key performance indicators (KPIs) for our portfolio and S&P500 index that help us monitor and make decisions about our stock. Below that we have information regarding our Top 15 Holdings that are giving us maximum monthly returns.
+
+                
+                                
+                </p>
+            </div>
+            
+            
+            <!-- Footer -->
+            <footer class="footer">
+                <!-- replace with your own email address -->
+                <a href="mailto:guptakritarth28122001@gmail.com" class="footer__link">guptakritarth28122001@gmail.com</a>
+                <ul class="social-list">
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://www.linkedin.com/in/kritarth-gupta">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://twitter.com/kritarth_gupta">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://instagram.com/kritarthgupta">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="http://www.facebook.com/kritarth.gupta">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                </ul>
+            </footer>
+        </div>
+
+        <!-- FOR HEADING STICK -->
+        <script src="js/header_stick.js"></script>
+        <!-- FOR HEADING STICK -->
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
